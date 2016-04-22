@@ -1,6 +1,6 @@
 # Etudes
 
-Repo for completing [Elixir Etudes](http://chimera.labs.oreilly.com/books/1234000001642/index.html) authored by J. David Eisenberg; or see the [O'Reilly free book](http://chimera.labs.oreilly.com/books/1234000001642) for details. 
+Repo for completing [Elixir Etudes](http://chimera.labs.oreilly.com/books/1234000001642/index.html) authored by J. David Eisenberg; or see the [O'Reilly free book](http://chimera.labs.oreilly.com/books/1234000001642) for details.
 
 ## Installation
 
