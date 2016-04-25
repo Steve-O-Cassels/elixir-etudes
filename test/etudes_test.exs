@@ -3,4 +3,5 @@ defmodule EtudesTest do
   doctest Etudes
 
   doctest DocumentModule.Geom
+  doctest Three.PatternMatching
 end
