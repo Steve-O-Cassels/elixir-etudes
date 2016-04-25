@@ -18,7 +18,7 @@ defmodule Three.PatternMatching do
 """
 
   @spec area(atom(), number, number) :: integer
-    def area(:rectangle, l, w) do
+    def area(:rectangle, l, w) do 
       l * w
     end
     def area(:triangle, l, w) do

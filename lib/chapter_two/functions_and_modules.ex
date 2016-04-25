@@ -20,7 +20,7 @@ defmodule Two.FunctionsAndModules do
 """
 
   def area(x \\ 1, y \\ 1) do
-    x * y
+    x * y 
   end
 
 end
