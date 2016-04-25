@@ -1,4 +1,4 @@
-defmodule DocumentModule.Geom do
+defmodule Two.FunctionsAndModules do
 @doc ~S"""
  CHAPTER 2 - Functions and Modules
  Takes length and width of rectangle and yields its area.
@@ -6,13 +6,13 @@ defmodule DocumentModule.Geom do
 
 ## Examples
 
-    iex> DocumentModule.Geom.area(3,4)
+    iex> Two.FunctionsAndModules.area(3,4)
     12
 
-    iex> DocumentModule.Geom.area(7)
+    iex> Two.FunctionsAndModules.area(7)
     7
 
-    iex> DocumentModule.Geom.area()
+    iex> Two.FunctionsAndModules.area()
     1
 
   result
