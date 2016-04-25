@@ -3,5 +3,6 @@ defmodule EtudesTest do
   doctest Etudes
 
   doctest Two.FunctionsAndModules
-  doctest Three.PatternMatching 
+  doctest Three.PatternMatching
+  doctest Three.Guards
 end

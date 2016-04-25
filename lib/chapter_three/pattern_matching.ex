@@ -1,5 +1,4 @@
 defmodule Three.PatternMatching do
-# import math
 @doc ~S"""
   http://chimera.labs.oreilly.com/books/1234000000726/ch03.html
 
@@ -18,13 +17,13 @@ defmodule Three.PatternMatching do
 """
 
   @spec area(atom(), number, number) :: integer
-    def area(:rectangle, l, w) do 
+    def area(:rectangle, l, w) do
       l * w
     end
     def area(:triangle, l, w) do
       (l * w) / 2.0
     end
     def area(:ellipse, x, y) do
-      :math.pi * x * y
+      Float.round(:math.pi * x * y, 3)
     end
 end
